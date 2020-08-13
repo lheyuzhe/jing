@@ -18,6 +18,7 @@ public class CateMusicService {
     private CatemusicMapper catemusicMapper;
 
     public List<Catemusic> searchCateMusicList() {
+        System.out.println("你是煞笔吗");
         return catemusicMapper.selectAll();
     }
 }

@@ -57,8 +57,9 @@ public class MusicService {
         musicMapper.deleteByPrimaryKey(mid);
     }
 
-    public void pideleteMusic(String[] slist) {
-        for (String s : slist) {
+    public void pideleteMusic(Integer[] slist) {
+        System.out.println("来单挑啊");
+        for (Integer s : slist) {
             musicMapper.deleteByPrimaryKey(s);
         }
     }

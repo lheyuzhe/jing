@@ -56,7 +56,8 @@ public class MusicController {
     @DeleteMapping("/pidmu/{pmid}")
     public BaseResult pideleteMusic(@PathVariable String pmid){
         String[] slist = pmid.split(",");
-        musicService.pideleteMusic(slist);
+        Integer[] slist1=null;
+        musicService.pideleteMusic(slist1);
         return BaseResult.ok("批量删除音乐成功！");
     }
 }
