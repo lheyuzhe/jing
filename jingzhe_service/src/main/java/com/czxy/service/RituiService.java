@@ -19,7 +19,6 @@ public class RituiService {
     private RituiMapper rituiMapper;
 
     public Ritui SuiRitui(){
-        System.out.println("你TM的猪头大脑？");
         Random r = new Random();
         List<Ritui> rlist = rituiMapper.selectAll();
         int rs = rlist.size()-1;

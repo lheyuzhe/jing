@@ -19,7 +19,6 @@ public class Music {
     private String mpeo;
     private String minto;
     private String mpeto;
-    private String code;
 
     private Catemusic catemusic;
 }
