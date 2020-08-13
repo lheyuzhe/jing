@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jingzhe.iml" filepath="$PROJECT_DIR$/jingzhe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingzhe_auth/jingzhe_auth.iml" filepath="$PROJECT_DIR$/jingzhe_auth/jingzhe_auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingzhe_common/jingzhe_common.iml" filepath="$PROJECT_DIR$/jingzhe_common/jingzhe_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingzhe_db/jingzhe_db.iml" filepath="$PROJECT_DIR$/jingzhe_db/jingzhe_db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingzhe_eureka/jingzhe_eureka.iml" filepath="$PROJECT_DIR$/jingzhe_eureka/jingzhe_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingzhe_pojo/jingzhe_pojo.iml" filepath="$PROJECT_DIR$/jingzhe_pojo/jingzhe_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingzhe_service/jingzhe_service.iml" filepath="$PROJECT_DIR$/jingzhe_service/jingzhe_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingzhe_zuul/jingzhe_zuul.iml" filepath="$PROJECT_DIR$/jingzhe_zuul/jingzhe_zuul.iml" />
+    </modules>
+  </component>
+</project>

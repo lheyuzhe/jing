@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jingzhe_auth" />
+        <module name="jingzhe_common" />
+        <module name="jingzhe_db" />
+        <module name="jingzhe_eureka" />
+        <module name="jingzhe_pojo" />
+        <module name="jingzhe_service" />
+        <module name="jingzhe_zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jingzhe" target="1.8" />
+      <module name="jingzhe_auth" target="1.8" />
+      <module name="jingzhe_common" target="1.8" />
+      <module name="jingzhe_db" target="1.8" />
+      <module name="jingzhe_eureka" target="1.8" />
+      <module name="jingzhe_pojo" target="1.8" />
+      <module name="jingzhe_service" target="1.8" />
+      <module name="jingzhe_zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

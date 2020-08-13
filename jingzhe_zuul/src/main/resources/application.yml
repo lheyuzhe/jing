@@ -1,0 +1,29 @@
+#端口号
+server:
+  port: 16198
+#服务名
+spring:
+  application:
+    name: jizuul
+  servlet:
+    multipart:
+      max-file-size: 2MB    #上传文件的大小
+
+#将网关服务添加到注册中心
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+  instance:
+    prefer-ip-address: true
+
+#网关统一配置 --  访问路径 http://localhost:10010/v3/服务名/路径
+zuul:
+  prefix: /ji
+  sensitive-headers: Cookie,Set-Cookie
+#负载均衡的超时时间
+ribbon:
+  readTimeout: 120000
+  ConnectionTimeout: 30000
