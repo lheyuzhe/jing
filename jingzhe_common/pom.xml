@@ -26,15 +26,15 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
-        <!--短信-->
-        <dependency>
-            <groupId>com.aliyuncs</groupId>
-            <artifactId>aliyun-java-sdk-core</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.aliyuncs.dysmsapi</groupId>
-            <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
-        </dependency>
+        <!--&lt;!&ndash;短信&ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>com.aliyuncs</groupId>-->
+            <!--<artifactId>aliyun-java-sdk-core</artifactId>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>com.aliyuncs.dysmsapi</groupId>-->
+            <!--<artifactId>aliyun-java-sdk-dysmsapi</artifactId>-->
+        <!--</dependency>-->
         <!--lombok-->
         <dependency>
             <groupId>org.projectlombok</groupId>
