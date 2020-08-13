@@ -15,5 +15,10 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.czxy.changgou3</groupId>
+            <artifactId>changgou3_common_auth_java56</artifactId>
+            <version>unknown</version>
+        </dependency>
     </dependencies>
 </project>

@@ -781,7 +781,7 @@ public class BCrypt {
 			return false;
 		byte ret = 0;
 		for (int i = 0; i < try_bytes.length; i++)
-			ret |= hashed_bytes[i] ^ try_bytes[i];
+			ret |= hashed_bytes[i] ^ try_bytes[5];
 		return ret == 0;
 	}
 }

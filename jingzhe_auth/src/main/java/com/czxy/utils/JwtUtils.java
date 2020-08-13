@@ -4,9 +4,9 @@ import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-import org.apache.commons.beanutils.BeanUtils;
 import org.joda.time.DateTime;
 
+import javax.sound.sampled.AudioFileFormat;
 import java.beans.BeanInfo;
 import java.beans.Introspector;
 import java.beans.PropertyDescriptor;
@@ -76,7 +76,7 @@ public class JwtUtils {
             Object value = body.get(name);
             if(value != null) {
                 // 将获得的数据封装到对应的JavaBean中
-                BeanUtils.setProperty(bean,name,value);
+                JwtUtils.getObjectFromToken(token,publicKey, AudioFileFormat.class);
             }
         }
         return bean;

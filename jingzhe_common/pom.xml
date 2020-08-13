@@ -35,11 +35,11 @@
             <groupId>com.aliyuncs.dysmsapi</groupId>
             <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
         </dependency>
-        <!--lombok-->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
+        <!--&lt;!&ndash;lombok&ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.projectlombok</groupId>-->
+            <!--<artifactId>lombok</artifactId>-->
+        <!--</dependency>-->
     </dependencies>
 
 </project>
